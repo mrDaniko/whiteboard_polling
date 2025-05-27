@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whiteboard</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        #board {
+            border: 2px solid black; /* Рамка дошки */
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="board" width="800" height="600"></canvas>
+    <select id="filter-select"></select>
+    <button id="apply-filter">Apply Filter</button>
+    <button id="refresh">Refresh</button>
+    <script src="canvas.js"></script>
+</body>
+</html>
